@@ -1,0 +1,7 @@
+{
+  "name": "btc-echo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

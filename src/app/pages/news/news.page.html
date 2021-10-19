@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Search Bar Fade In</ion-title>
+    <ion-buttons slot="secondary">
+      <ion-button fill="clear">
+        <ion-icon slot="icon-only" name="cog-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button fill="clear" (click)="toggleSearchBar()">
+        <ion-icon slot="icon-only" name="search-outline" id="search-icon"></ion-icon>
+        <ion-icon slot="icon-only" name="close-outline" id="close-icon"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar id="search-bar">
+    <ion-searchbar placeholder="Suchen..."></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+</ion-content>
